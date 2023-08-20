@@ -1,0 +1,8 @@
+name: 'Deploy Firebase Functions'
+description: 'Deploy Firebase Functions'
+inputs:
+  service_account: 
+    required: true
+  only:
+    description: 'prefix of functions to deploy'
+    required: false

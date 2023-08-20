@@ -17,6 +17,7 @@
     "@actions/core": "^1.10.0",
     "@actions/exec": "^1.1.1",
     "@fmdev/cache-file": "https://github.com/feildmaster/cache-file",
+    "firebase-tools": "^12.4.8",
     "tmp": "^0.2.1"
   },
   "devDependencies": {
