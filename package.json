@@ -1,0 +1,25 @@
+{
+  "name": "@fmdev/deploy-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "feildmaster",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/exec": "^1.1.1",
+    "@fmdev/cache-file": "https://github.com/feildmaster/cache-file",
+    "tmp": "^0.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0"
+  }
+}
